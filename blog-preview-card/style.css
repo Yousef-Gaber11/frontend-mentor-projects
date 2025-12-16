@@ -13,7 +13,7 @@
 
 body {
   background-color: var(--yellow);
-  font-family: "Figtree", sans-serif;
+  font-family: "Figtree";
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,6 +32,7 @@ main {
   height: 522px;
   gap: 24px;
   box-shadow: 10px 10px 0px rgba(0, 0, 0, 1);
+  border: 1px solid var(--black);
 }
 
 .img1 {
@@ -58,12 +59,12 @@ a {
 }
 
 .p1 {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 h2:hover {
-    color: var(--yellow);
-    cursor: pointer;
+  color: var(--yellow);
+  cursor: pointer;
 }
 
 .p2 {
