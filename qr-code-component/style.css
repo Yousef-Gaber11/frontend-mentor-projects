@@ -13,7 +13,7 @@ body {
   height: 100vh;
 }
 
-.main {
+main {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -36,6 +36,7 @@ h1 {
   color: hsl(218, 44%, 22%);
   line-height: 120%;
   margin: 20px 15px 10px 15px;
+  font-weight: 700;
 }
 
 p {
@@ -44,4 +45,5 @@ p {
   line-height: 140%;
   letter-spacing: 0.2px;
   margin: 0 15px 20px 15px;
+  font-weight: 400;
 }
