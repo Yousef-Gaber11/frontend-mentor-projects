@@ -20,8 +20,9 @@ main {
   align-items: center;
   text-align: center;
   background-color: hsl(0, 0%, 100%);
+  background-color: hsl(206, 78%, 98%);
   border-radius: 15px;
-  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
   max-width: 350px;
 }
 img {
@@ -29,6 +30,11 @@ img {
   height: 300px;
   border-radius: 15px;
   margin: 20px;
+}
+
+h3,
+p {
+  max-width: 300px;
 }
 
 h1 {
