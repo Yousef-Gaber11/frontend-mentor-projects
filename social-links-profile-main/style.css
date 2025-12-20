@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--grey-900);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 14px;
+  color: var(--white);
+}
+
+main {
+  background-color: var(--grey-800);
+  border-radius: 15px;
+  width: 350px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+img {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.nameandlocation {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+}
+
+.nameandlocation p {
+  color: var(--green);
+  font-weight: bold;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--grey-700);
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: var(--green);
+  color: var(--grey-900);
+}
