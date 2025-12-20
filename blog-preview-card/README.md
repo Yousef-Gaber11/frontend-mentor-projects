@@ -6,17 +6,9 @@ A simple article teaser component built for the [Frontend Mentor](https://www.fr
 
 ![Blog preview card UI](./preview.jpg)
 
-## Links
+## Overview
 
-- Solution repo: [frontend-mentor-projects/blog-preview-card](https://github.com/Yousef-Gaber11/frontend-mentor-projects/tree/main/blog-preview-card)
-- Live demo: _Add your deployed URL here_
-
-## Features
-
-- Responsive card layout (mobile-first)
-- Accessible HTML semantics
-- Hover/focus transitions for buttons and links
-- Local fonts and optimized assets from the challenge starter kit
+This project recreates the Blog Preview Card challenge by translating the supplied style guide into semantic HTML and modern CSS. It focuses on typography, spacing, and hover cues to match the reference while staying fully responsive. Use the repo to inspect structure, tweak styles, or extend interactions. Contributions or suggestions are welcome via issues or pull requests.
 
 ## Built With
 
@@ -25,32 +17,24 @@ A simple article teaser component built for the [Frontend Mentor](https://www.fr
 - Mobile-first workflow
 - Vanilla JavaScript _(optional, only if you added interactions)_
 
-## Getting Started
+## Links
 
-```bash
-# install dependencies (if any)
-npm install
+- Solution repo:(<https://github.com/Yousef-Gaber11/frontend-mentor-projects/tree/main/blog-preview-card>)
+- Live demo: (<https://yousef-gaber11.github.io/frontend-mentor-projects/blog-preview-card/index.html>)
 
-# run a local dev server or open index.html directly
-npm run dev
+## Project Structure
+
+```blog-preview-card/
+├─ index.html
+├─ styles/
+│  └─ style.css
+├─ assets/
+│  ├─ images/
+│  └─ icons/
+└─ README.md
 ```
-
-## What I Learned
-
-- Crafting a balanced visual hierarchy with font weights and spacing
-- Handling focus-visible styles to ensure keyboard users get the same cues as mouse users
-- Tweaking box-shadows and border radii to match a static design spec
-
-## Useful Resources
-
-- [Modern CSS Layout Techniques](https://web.dev/learn/css/)
-- [Accessible Component Patterns](https://www.a11yproject.com/)
 
 ## Author
 
 - GitHub – [@Yousef-Gaber11](https://github.com/Yousef-Gaber11)
 - Frontend Mentor – [@Yousef-Gaber11](https://www.frontendmentor.io/profile/Yousef-Gaber11)
-
-## Acknowledgments
-
-Design files, assets, and style guide provided by Frontend Mentor. Huge thanks to the community for continuous feedback!
