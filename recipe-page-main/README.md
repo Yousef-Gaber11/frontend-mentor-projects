@@ -12,8 +12,8 @@ A responsive recipe page built from the [Frontend Mentor](https://www.frontendme
 
 ## Links
 
-- Solution URL: https://github.com/Yousef-Gaber11/frontend-mentor-projects/tree/main/recipe-page-main
-- Live Site URL: 
+- Solution URL: (<https://github.com/Yousef-Gaber11/frontend-mentor-projects/tree/main/recipe-page-main>)
+- Live Site URL: (<https://yousef-gaber11.github.io/frontend-mentor-projects/recipe-page-main/index.html>)
 
 ## Built With
 
