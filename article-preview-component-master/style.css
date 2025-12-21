@@ -204,4 +204,35 @@ body {
 
   /* ^ popup */
 
+  .share-menu {
+    bottom: 0;
+    left: -330%;
+  }
+
+  .share-menu::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid transparent;
+    border-left: 15px solid var(--very-dark-grayish-blue);
+    top: 20%;
+    left: 106%;
+    transform: translateX(-50%);
+  }
+
+  .share-text {
+    color: var(--desaturated-dark-blue);
+    letter-spacing: 5px;
+  }
+
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
 }
