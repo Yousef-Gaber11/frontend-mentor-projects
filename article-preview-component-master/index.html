@@ -1,36 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Article preview component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
 
-  Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
+    <title>Frontend Mentor | Article preview component</title>
+  </head>
+  <body>
+    <article class="article-card">
+      <div class="article-image">
+        <img
+          src="./images/drawers.jpg"
+          alt="Drawers with a lamp and a vase on top"
+        />
+      </div>
 
-  Michelle Appleton
-  28 Jun 2020
+      <div class="article-content">
+        <h1 class="article-title">
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home
+        </h1>
 
-  Share
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+        <p class="article-text">
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I've got some simple tips to help
+          you make any room feel complete.
+        </p>
+
+        <div class="article-author">
+          <img
+            class="author-avatar"
+            src="./images/avatar-michelle.jpg"
+            alt="Michelle Appleton"
+          />
+
+          <div class="author-info">
+            <p class="author-name">Michelle Appleton</p>
+            <p class="publish-date">28 Jun 2020</p>
+          </div>
+
+          <button class="share-button" id="share-btn" aria-label="Share article">
+            <!-- ********** -->
+            <!-- share button structure -->
+            <div class="share-menu" id="popup">
+              <p class="share-text">SHARE</p>
+              <div class="social-icons">
+                <a href="#" class="social-icon">
+                  <img src="./images/icon-facebook.svg" alt="Facebook" />
+                </a>
+                <a href="#" class="social-icon">
+                  <img src="./images/icon-twitter.svg" alt="Twitter" />
+                </a>
+                <a href="#" class="social-icon">
+                  <img src="./images/icon-pinterest.svg" alt="Pinterest" />
+                </a>
+              </div>
+            </div>
+            <!-- ********** -->
+            <img src="./images/icon-share.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </article>
+
+    <script src="script.js"></script>
+  </body>
 </html>
