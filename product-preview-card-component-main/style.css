@@ -46,10 +46,14 @@ main {
   width: 50%;
 }
 
-.left_side img {
+.left_side .img1 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.left_side .img2 {
+  display: none;
 }
 
 /* Right side */
@@ -134,9 +138,14 @@ button:hover {
     width: 100%;
   }
 
-  /* .left_side img {
+  .left_side .img2 {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
     display: block;
-  } */
+  }
+
+  .left_side .img1 {
+    display: none;
+  }
 }
