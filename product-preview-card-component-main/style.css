@@ -99,6 +99,7 @@ p {
 
 .price .original_price {
   font-size: 13px;
+  color: var(--grey);
 }
 
 button {
