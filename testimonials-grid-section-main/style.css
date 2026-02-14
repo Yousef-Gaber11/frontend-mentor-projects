@@ -1,0 +1,106 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: hsl(210, 46%, 95%);
+}
+
+.container {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "para1 para1 para2 para3"
+    "para4 para5 para5 para3";
+  gap: 20px;
+}
+
+.para1,
+.para2,
+.para3,
+.para4,
+.para5 {
+  padding: 20px;
+  border-radius: 15px;
+  color: hsl(0, 0%, 100%);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.para1 {
+  grid-area: para1;
+  background-color: hsl(263, 55%, 52%);
+}
+
+.para2 {
+  grid-area: para2;
+  background-color: hsl(217, 19%, 35%);
+}
+
+.para3 {
+  grid-area: para3;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(219, 29%, 14%);
+}
+
+.para4 {
+  grid-area: para4;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(219, 29%, 14%);
+}
+
+.para5 {
+  grid-area: para5;
+  background-color: hsl(219, 29%, 14%);
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.para1 img,
+.para5 img {
+  border: 3px solid #9452ff;
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+h5 {
+  font-size: 14px;
+  color: rgba(180, 178, 178, 0.8);
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+p:last-child {
+  color: rgba(180, 178, 178, 0.8);
+}
+
+@media (max-width: 375px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "para1"
+      "para2"
+      "para3"
+      "para4"
+      "para5";
+  }
+}
